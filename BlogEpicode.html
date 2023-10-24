@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="it">
+    <meta charset="UTF-8">
+    <meta name="description" content="pagina blog di EPICODE">
+    <title>Epicode - Il blog dei developers</title>
+</head>
+
+<body>
+    <header>
+
+        <div>
+            <img src="/assets/img/logo.svg" alt="logo EPICODE">
+            <h1>Epicode - Il blog dei developers</h1>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Articoli</li>
+                    <li>Lavora con noi</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Come creare un template per i post</h2>
+            <p><b>di Mario Rossi - pubblicato il 25-10-2020</b></p>
+
+            <div>
+                <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da
+                    applicare a tutte le pagine.</p>
+                <p>Le varie aree saranno quindi suddivise in:</p>
+                <ol>
+                    <li>Contenuti di intestazione del tag header</li>
+                    <li>Contenuti centrali variabili del tag main(corpo principale)</li>
+                    <li>Contenuti di fine pagina comuni, da inserire nel tag footer</li>
+                </ol>
+            </div>
+            <div>
+                <h3>Formattazione del codice</h3>
+                <p>
+                    Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i
+                    CSS. Perciò i passi saranno:
+                </p>
+                <ul>
+                    <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+                    <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                    <li>Applicare gli stili CSS</li>
+                </ul>
+                <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.
+                </p>
+            </div>
+        </section>
+        <section>
+            <table>
+                <caption>Diffusione dei CSS</caption>
+                <thead>
+                    <tr>
+                        <th>Anno </th>
+                        <th>% di utilizzo </th>
+                        <th>Supporto browsers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2000</td>
+                        <td>20%</td>
+                        <td>17%</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>35%</td>
+                        <td>22%</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>45%</td>
+                        <td>42%</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>80%</td>
+                        <td>51%</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>100%</td>
+                        <td>76%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <article>
+                <p>Un test di validazione potrà essere fatto tramite il tool online <a
+                        href="https://validator.w3.org/">validator </a> dedicato allo scopo. Una volta ottimizzato il
+                    tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kz-wS8EJfdM?si=IZooad85GFYra7Zp"
+                    title="Testimonianza EPICODE" allowfullscreen></iframe>
+            </article>
+        </section>
+    </main>
+    <aside>
+        <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+        <form>
+            <label for="email">Inserisci l'email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="iscriviti!">Iscriviti!</label>
+            <input type="submit" id="iscriviti!" name="iscriviti!">
+        </form>
+    </aside>
+    <footer>
+        <div>
+            <p><b>Articoli correlati Validare il codice HTML Categoria: develop Data</b>: 18-9-2020</p>
+            <p><b>Correggere la sintassi Categoria: develop Data</b>: 16-9-2020</p>
+            <p><b>Meno Kb nella pagina Categoria: ottimizzazione Data</b>: 30-9-2020</p>
+        </div>
+        <div>
+            <p>Blog Epicode ©2023
+                Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA
+                00112233. <a href="mailto:info@epicode.school">info@epicode.school</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
